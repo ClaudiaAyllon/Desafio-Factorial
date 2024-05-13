@@ -1,0 +1,90 @@
+body {
+  background-image: url(../assets/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  color: white;
+  padding: 2%;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #bdf564;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: left;
+  font-family: Arial, sans-serif;
+  color: #bdf564;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.image-container img {
+  margin: 10px;
+  max-width: 100%;
+  height: auto;
+}
+
+.factorial-form {
+  text-align: center;
+  font-size: 20px;
+}
+
+.factorial-input {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  background-color: rgb(171, 214, 169);
+}
+
+.factorial-button {
+  background-color: yellow;
+  color: black;
+  font-size: 20px;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.result {
+  background-color: rgb(159, 189, 61);
+  color: rgb(255, 255, 255);
+  padding: 16px;
+  text-align: center;
+  font-size: 20px;
+  margin: 5px;
+}
+
+/* Media queries para ajustar los estilos en pantallas más pequeñas */
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 32px;
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+  
+  .factorial-input {
+    width: 100%;
+  }
+  
+  .factorial-button {
+    font-size: 18px;
+    padding: 3px 8px;
+  }
+  
+  .image-container {
+    flex-direction: column;
+  }
+}

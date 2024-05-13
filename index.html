@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Calculadora de Factorial</title>
+  <link rel="stylesheet" href="CSS/estilo.css">
+</head>
+<body>
+  <h1>FACTORIALES</h1>
+  <h2>¿Qué es el factorial?</h2>
+  <p>El factorial de un número entero positivo se denota con el símbolo "!". Es el producto de todos los números enteros positivos desde 1 hasta ese número.</p>
+  <p>Por ejemplo, el factorial de 5 se calcula como:</p>
+  <p>5! = 5 x 4 x 3 x 2 x 1 = 120</p>
+  
+  <h2>¿Cómo se calcula el factorial?</h2>
+  <p>Para calcular el factorial de un número, se multiplican todos los números enteros positivos desde 1 hasta ese número.</p>
+  <p>Por ejemplo, para calcular el factorial de 6:</p>
+  <p>6! = 6 x 5 x 4 x 3 x 2 x 1 = 720</p>
+  
+  <h2>Propiedades del factorial</h2>
+  <p>El factorial tiene algunas propiedades interesantes:</p>
+  <ul>
+    <li>El factorial de 0 es igual a 1: 0! = 1.</li>
+    <li>El factorial de 1 es igual a 1: 1! = 1.</li>
+    <li>El factorial de un número negativo no está definido.</li>
+    <li>El factorial crece rápidamente a medida que el número aumenta. Por ejemplo, el factorial de 20 es un número muy grande: 20! = 2432902008176640000.</li>
+  </ul>
+  
+  <h2>Aplicaciones del factorial</h2>
+  <p>El factorial se utiliza en diversas áreas, como:</p>
+  <ul>
+    <li>Probabilidad y combinatoria: El factorial se utiliza para calcular el número de permutaciones y combinaciones de un conjunto de elementos.</li>
+    <li>Estadísticas: El coeficiente binomial, que se utiliza en la distribución binomial, involucra el cálculo del factorial.</li>
+    <li>Matemáticas avanzadas: El factorial se utiliza en fórmulas y series matemáticas, como la serie de Taylor y la función gamma.</li>
+  </ul>
+  <div class="image-container">
+    <img src="assets/img1.png" alt="Imagen 1">
+    <img src="assets/img2.png" alt="Imagen 2">
+  </div>
+  <br>
+  <div class="factorial-form">
+    <label for="number">Ingresa un número:</label>
+    <input type="number" id="number" class="factorial-input">
+    <button id="calculate" class="factorial-button">Calcular Factorial</button>
+  </div>
+  <h2>RESULTADO:</h2>
+  <p id="res" class="result"></p>
+
+  <script src="JS/ej.js"></script>
+</body>
+</html>
